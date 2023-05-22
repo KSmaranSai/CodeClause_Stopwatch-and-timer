@@ -207,6 +207,12 @@ hr {
     margin: 0;
 }
 
+@media (min-width: 1350px){
+    .contents {
+        width: 470px;
+    }
+}
+
 @media (max-width: 1030px) {
     .contents {
         width: 30%;
@@ -226,7 +232,6 @@ hr {
         height: 40px;
         font-size: medium;
     }
-
 }
 
 @media(max-width:850px) {
@@ -268,6 +273,10 @@ hr {
 }
 
 @media (max-width: 650px) {
+    .popup{
+        top: 50%;
+        left: 43%;
+    }
     .input-timer input {
         width: 30%;
         height: 15px;
